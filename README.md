@@ -1,10 +1,10 @@
 # Django Blog #
 ## Table of Contents 
--[Introduction](#introduction)
--[Features}(#features)
--[Prerequisites](#prerequisites)
--[Installation](installation)
--[Usage](usage)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](installation)
+- [Usage](usage)
 
 
 
@@ -27,34 +27,34 @@ Additional Notes
 - A code editor or IDE (e.g., Visual Studio Code, PyCharm)
 
 ## Installation
-- # Clone this repository:
+- Clone this repository:
 
---Bash
+-Bash
 -git clone https://github.com/Deepakjoy789/Django-Blog/
 
 
-# Create a virtual environment (recommended):
+ Create a virtual environment (recommended):
 
 -Bash
 -python -m venv venv
 -source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# Install dependencies:
+ Install dependencies:
 
 - Bash
 - pip install -r requirements.txt
 
 
-# Set up your database:
+ Set up your database:
 
 - Edit mysite/settings.py to configure your database connection details.
 
-# Run migrations to create the database tables:
+ Run migrations to create the database tables:
 Bash
 -python manage.py migrate
 
 
-# Run the development server:
+ Run the development server:
 
 Bash
 - python manage.py runserver
@@ -63,13 +63,13 @@ Bash
 This will start the Django development server, typically accessible at http://localhost:8000/ by default.
 
 ## Usage
-# Create a new admin user:
+ Create a new admin user:
 
 Bash
 - python manage.py createsuperuser
 
 
-# Login to the admin panel:
+ Login to the admin panel:
 
 - Go to http://localhost:8000/admin/ in your web browser.
 - Use the credentials you created in step 1 to log in.
